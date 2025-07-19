@@ -5,13 +5,9 @@ public class Funcionario {
     public Funcionario(String nome, String sobrenome, double salario) {
         this.nome = nome;
         this.sobrenome = sobrenome;
-        if (salario < 0) {
-            this.salario = 0.0;
-            return;
-        }
         this.salario = salario;
     }
-
+    
     public String getNome() {
         return nome;
     }
@@ -25,6 +21,9 @@ public class Funcionario {
         this.nome = nome;
     }
     public void setSalario(double salario) {
+        if (salario < 0) {
+            this.salario = 0.0;
+        }
         this.salario = salario;
     }
     public void setSobrenome(String sobrenome) {

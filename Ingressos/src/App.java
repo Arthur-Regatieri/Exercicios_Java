@@ -8,7 +8,7 @@ public class App {
         ticket.isDub(ticket.dub);
         ticket.setValue(50);
 
-        if (ticket instanceof Mid mid) {
+        if (ticket instanceof Mid) {
             mid.midEntry(ticket.getValue());
         } else if (ticket instanceof Family fam) {
             fam.Familyticket(ticket.getValue());            

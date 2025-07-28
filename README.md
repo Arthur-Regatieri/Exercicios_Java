@@ -1,2 +1,2 @@
-Exercícios JAVA
+Exercícios
 Repositório para exercícios de JAVA
